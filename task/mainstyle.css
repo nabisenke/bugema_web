@@ -1,0 +1,140 @@
+/* below is a universal selector */
+*{
+    color:rgb(0, 0, 0);
+   
+}
+
+#h1styles{
+    color: rgb(2, 0, 98);
+    font-family:cambria;
+    text-align: center;
+    
+}
+
+#liststyle{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.pstyles{
+    background-color:blue;
+    font-size: 24px;
+    /*font-style: italic; */
+    color: white;
+    
+}
+
+.maindiv{
+    /*background-color: black;*/
+    width: 80%;
+    margin-left: 12%;
+    padding:10px;
+}
+
+.img{
+    width: 100%;
+}
+
+.sideimg{
+    width:20%;
+    height: 20%;
+    
+}
+.innerdiv{
+    width: 90%;
+    height: 500px;
+    border: 2px solid black;
+}
+{
+    
+}
+.one {
+    width: 40%;
+    height: auto;
+    float:left;
+    padding: 10px;
+}
+
+.two   {
+    width: 40%;
+    height: auto; 
+    float: right;
+    padding: 20px;
+}
+
+
+div.sample{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    float:left;
+    }
+div.x{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    float:left;
+    
+}
+
+div.z{
+    background-color: rgb(153, 255, 0);
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    float: left;
+}
+.img{
+    width: 20%;
+    height: auto;
+    float: right;
+    margin-right:7px;
+}
+
+div.p{
+    
+    margin-bottom: 10px;
+    padding:10px ;
+    height: 140px;
+}
+ ul{
+    background-color: rgb(53, 47, 47);
+    width: 200px;
+    list-style-type: none;
+    padding: 0;
+ }
+
+ li{
+    margin-bottom: 20px;
+ }
+
+ li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;   
+ }
+
+ li a:hover{
+    background-color: white;
+    color:black;
+ }
+
+ .active{
+    background-color: silver ;
+    color: black;
+ }
+
+ div.parent{
+    width: 70%;
+    float: left;
+    
+ }
+
+ div.menu{
+    float: left;
+ }
